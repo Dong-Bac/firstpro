@@ -1,0 +1,17 @@
+.login-frontend{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(13, 231, 212, 0.9), rgba(235, 247, 14, 0.9));
+
+    .text-login{
+        font-size: 25px;
+        font-weight: bold
+    }
+    .login-submit{
+        background: linear-gradient(90deg, rgba(13, 231, 212, 0.9), rgba(235, 247, 14, 0.9));
+
+        &:hover{
+            background: linear-gradient(270deg, rgba(13, 231, 212, 0.9), rgba(235, 247, 14, 0.9));;
+        }
+    }
+}
